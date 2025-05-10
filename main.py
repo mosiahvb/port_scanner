@@ -15,8 +15,8 @@ def main():
         print('----MENU----')
         print('1. Scan Port or Domain')
         print('Please pick from the MENU options "1"')
-        choice = int(input(': '))
-        if choice == 1:
+        choice = input(': ')
+        if choice == '1':
             print('Enter a IP address or domain name')
             ip = input(': ')
 
